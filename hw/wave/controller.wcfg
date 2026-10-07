@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_addresses_manager_sv_4191496158 " />
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="780.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,043.901 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb/dut/control_unit/my_addr_manager/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/my_addr_manager/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/my_addr_manager/instr" type="array">
+      <obj_property name="ElementShortName">instr</obj_property>
+      <obj_property name="ObjectShortName">instr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/dma_data_in" type="array">
+      <obj_property name="ElementShortName">dma_data_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_data_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/dma_address" type="array">
+      <obj_property name="ElementShortName">dma_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/dma_data_out" type="array">
+      <obj_property name="ElementShortName">dma_data_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_data_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/ps_collect_data" type="array">
+      <obj_property name="ElementShortName">ps_collect_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ps_collect_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/cu_to_act_control" type="array">
+      <obj_property name="ElementShortName">cu_to_act_control</obj_property>
+      <obj_property name="ObjectShortName">cu_to_act_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/cu_to_ps_control" type="array">
+      <obj_property name="ElementShortName">cu_to_ps_control</obj_property>
+      <obj_property name="ObjectShortName">cu_to_ps_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/cu_to_mux_ps_control" type="other">
+      <obj_property name="ElementShortName">cu_to_mux_ps_control</obj_property>
+      <obj_property name="ObjectShortName">cu_to_mux_ps_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/pe_sys_selector" type="array">
+      <obj_property name="ElementShortName">pe_sys_selector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pe_sys_selector[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/instr_ready_signal" type="logic">
+      <obj_property name="ElementShortName">instr_ready_signal</obj_property>
+      <obj_property name="ObjectShortName">instr_ready_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/mm_act_done" type="logic">
+      <obj_property name="ElementShortName">mm_act_done</obj_property>
+      <obj_property name="ObjectShortName">mm_act_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/ps_we" type="logic">
+      <obj_property name="ElementShortName">ps_we</obj_property>
+      <obj_property name="ObjectShortName">ps_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/op_done" type="logic">
+      <obj_property name="ElementShortName">op_done</obj_property>
+      <obj_property name="ObjectShortName">op_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/control_unit/mm_pe_selector" type="logic">
+      <obj_property name="ElementShortName">mm_pe_selector</obj_property>
+      <obj_property name="ObjectShortName">mm_pe_selector</obj_property>
+   </wvobject>
+</wave_config>
